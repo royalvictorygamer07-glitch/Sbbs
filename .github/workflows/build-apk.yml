@@ -57,7 +57,7 @@ jobs:
       - name: Set up Gradle 9.3.1
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: "9.3.1"
+          gradle-version: '9.3.1'
 
       - name: Create temporary debug keystore
         run: |
@@ -83,7 +83,7 @@ jobs:
           fi
           echo "SUCCESS: ./debug.keystore is present."
 
-          # Restore essential root Gradle files if missing in repository checkout
+          # Ensure essential root Gradle files are present in the runner environment
           mkdir -p gradle
 
           if [ ! -f "settings.gradle.kts" ] && [ ! -f "settings.gradle" ]; then
@@ -260,7 +260,7 @@ EOF
         run: |
           gradle :app:assembleDebug --stacktrace --no-daemon
 
-      - name: Verify APK
+      - name: Verify the APK
         run: |
           EXPECTED_APK="app/build/outputs/apk/debug/app-debug.apk"
           if [ ! -f "$EXPECTED_APK" ]; then
@@ -419,4 +419,3 @@ EOF
             echo "- **Warning:** Release publishing encountered an issue or was skipped, but the APK build was completely successful." >> "$GITHUB_STEP_SUMMARY"
             echo "- **Backup Download:** The Actions artifact named \`app-debug-apk\` remains fully available for download under the workflow run artifacts." >> "$GITHUB_STEP_SUMMARY"
           fi
-        
