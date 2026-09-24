@@ -31,7 +31,12 @@ android {
       keyPassword = System.getenv("KEY_PASSWORD")
     }
     create("debugConfig") {
-      storeFile = file("${rootDir}/debug.keystore")
+      val rootKeystore = rootProject.file("debug.keystore")
+      storeFile = if (rootKeystore.exists()) {
+        rootKeystore
+      } else {
+        signingConfigs.getByName("debug").storeFile ?: rootKeystore
+      }
       storePassword = "android"
       keyAlias = "androiddebugkey"
       keyPassword = "android"
