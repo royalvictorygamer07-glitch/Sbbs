@@ -1,0 +1,240 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer dark steel circular shield -->
+    <path
+        android:fillColor="#0D0F14"
+        android:strokeColor="#33141B"
+        android:strokeWidth="3"
+        android:pathData="M100,100 m-92,0 a92,92 0 1,0 184,0 a92,92 0 1,0 -184,0" />
+
+    <!-- Outer metallic circular bevel ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#262C36"
+        android:strokeWidth="4"
+        android:pathData="M100,100 m-85,0 a85,85 0 1,0 170,0 a85,85 0 1,0 -170,0" />
+
+    <!-- Cardinal direction compass spikes -->
+    <!-- Top Spike -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M100,2 L106,16 L100,12 L94,16 Z" />
+    <path
+        android:fillColor="#475569"
+        android:pathData="M100,2 L100,12 L94,16 Z" />
+
+    <!-- Bottom Spike -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M100,198 L106,184 L100,188 L94,184 Z" />
+    <path
+        android:fillColor="#475569"
+        android:pathData="M100,198 L100,188 L94,184 Z" />
+
+    <!-- Left Spike -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M2,100 L16,94 L12,100 L16,106 Z" />
+    <path
+        android:fillColor="#475569"
+        android:pathData="M2,100 L12,100 L16,106 Z" />
+
+    <!-- Right Spike -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M198,100 L184,94 L188,100 L184,106 Z" />
+    <path
+        android:fillColor="#475569"
+        android:pathData="M198,100 L188,100 L184,106 Z" />
+
+    <!-- Inner chain links track -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#47141E"
+        android:strokeWidth="2"
+        android:pathData="M100,100 m-74,0 a74,74 0 1,0 148,0 a74,74 0 1,0 -148,0" />
+
+    <!-- Dark Metal Background disc -->
+    <path
+        android:fillColor="#15080C"
+        android:pathData="M100,100 m-70,0 a70,70 0 1,0 140,0 a70,70 0 1,0 -140,0" />
+
+    <!-- Crossed steel chains background -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#64748B"
+        android:strokeWidth="5"
+        android:pathData="M38,124 Q60,110 100,100 T162,76" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#334155"
+        android:strokeWidth="2"
+        android:pathData="M38,124 Q60,110 100,100 T162,76" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#64748B"
+        android:strokeWidth="5"
+        android:pathData="M38,76 Q60,90 100,100 T162,124" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#334155"
+        android:strokeWidth="2"
+        android:pathData="M38,76 Q60,90 100,100 T162,124" />
+
+    <!-- Red skull ambient glow -->
+    <path
+        android:fillColor="#3D0611"
+        android:pathData="M100,75 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+
+    <!-- Blood Red Skull Base Cranium -->
+    <path
+        android:fillColor="#B91C1C"
+        android:pathData="M100,32 C74,32 58,50 58,74 C58,92 68,104 74,116 C78,124 82,128 84,136 L116,136 C118,128 122,124 126,116 C132,104 142,92 142,74 C142,50 126,32 100,32 Z" />
+
+    <!-- Skull Highlights & Shading (Crimson Red) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M100,34 C78,34 64,52 64,74 C64,88 72,100 78,112 C82,118 84,124 88,130 L112,130 C116,124 118,118 122,112 C128,100 136,88 136,74 C136,52 122,34 100,34 Z" />
+
+    <!-- Forehead Crack Detailing -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7F1D1D"
+        android:strokeWidth="1.5"
+        android:pathData="M100,36 L102,48 L96,54 L100,62 M82,44 L88,50 L84,58 M118,44 L114,52" />
+
+    <!-- Forehead Carved "AK" Emblem -->
+    <!-- Letter A -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E0308"
+        android:strokeWidth="2.8"
+        android:pathData="M94,62 L87,42 L80,62 M82,55 L92,55" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#DC2626"
+        android:strokeWidth="1"
+        android:pathData="M94,62 L87,42 L80,62 M82,55 L92,55" />
+
+    <!-- Letter K -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E0308"
+        android:strokeWidth="2.8"
+        android:pathData="M103,42 L103,62 M117,42 L103,52 L118,62" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#DC2626"
+        android:strokeWidth="1"
+        android:pathData="M103,42 L103,62 M117,42 L103,52 L118,62" />
+
+    <!-- Deep Dark Eye Sockets -->
+    <!-- Left Eye -->
+    <path
+        android:fillColor="#0D0103"
+        android:strokeColor="#450A0A"
+        android:strokeWidth="1"
+        android:pathData="M76,72 C72,74 70,82 74,88 C78,94 88,92 90,85 C92,78 82,70 76,72 Z" />
+    <!-- Right Eye -->
+    <path
+        android:fillColor="#0D0103"
+        android:strokeColor="#450A0A"
+        android:strokeWidth="1"
+        android:pathData="M124,72 C128,74 130,82 126,88 C122,94 112,92 110,85 C108,78 118,70 124,72 Z" />
+
+    <!-- Glowing Red pupils inside sockets -->
+    <path
+        android:fillColor="#FF1E44"
+        android:pathData="M81,81 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#FF1E44"
+        android:pathData="M119,81 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Nasal Inverted-Heart Cavity -->
+    <path
+        android:fillColor="#0D0103"
+        android:pathData="M100,90 L95,102 L100,100 L105,102 Z" />
+
+    <!-- Mandible / Upper Jaw Teeth -->
+    <path
+        android:fillColor="#FEF2F2"
+        android:pathData="M85,124 L87,133 L90,124 L93,133 L96,124 L100,134 L104,124 L107,133 L110,124 L113,133 L115,124 Z" />
+    <path
+        android:fillColor="#7F1D1D"
+        android:strokeWidth="0.5"
+        android:pathData="M85,124 L115,124 L115,127 L85,127 Z" />
+
+    <!-- Bottom Teeth Row -->
+    <path
+        android:fillColor="#FEF2F2"
+        android:pathData="M87,136 L89,142 L92,136 L95,142 L99,136 L101,142 L105,136 L108,142 L111,136 L113,142 Z" />
+
+    <!-- Metal Rivet Studs around perimeter -->
+    <path android:fillColor="#CBD5E1" android:pathData="M40,60 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#CBD5E1" android:pathData="M160,60 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#CBD5E1" android:pathData="M40,140 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#CBD5E1" android:pathData="M160,140 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- "AK EXPLOITS" Grunge Typography Shield / Banner -->
+    <path
+        android:fillColor="#111827"
+        android:strokeColor="#DC2626"
+        android:strokeWidth="1.5"
+        android:pathData="M24,146 L176,146 L166,168 L34,168 Z" />
+
+    <!-- Stylized "AK" letters in banner -->
+    <!-- A -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M42,164 L46,150 L50,164 L47.5,164 L46,158 L44,158 L43.5,164 Z M45,155 L44.5,152 L45.5,152 Z" />
+    <!-- K -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M54,150 L57,150 L57,156 L62,150 L66,150 L60,157 L66.5,164 L62.5,164 L57,158 L57,164 L54,164 Z" />
+
+    <!-- "EXPLOITS" text representation in banner -->
+    <!-- E -->
+    <path android:fillColor="#E2E8F0" android:pathData="M76,152 L84,152 L84,154.5 L78.5,154.5 L78.5,157 L83,157 L83,159.5 L78.5,159.5 L78.5,162 L84,162 L84,164.5 L76,164.5 Z" />
+    <!-- X -->
+    <path android:fillColor="#E2E8F0" android:pathData="M87,152 L90,152 L93,158 L96,152 L99,152 L94.5,158.5 L99,164.5 L96,164.5 L93,159.5 L90,164.5 L87,164.5 L91.5,158.5 Z" />
+    <!-- P -->
+    <path android:fillColor="#E2E8F0" android:pathData="M102,152 L108,152 C110.5,152 111.5,153.5 111.5,156 C111.5,158.5 110.5,160 108,160 L104.5,160 L104.5,164.5 L102,164.5 Z M104.5,154.5 L104.5,157.5 L107.5,157.5 C108.5,157.5 109,157 109,156 C109,155 108.5,154.5 107.5,154.5 Z" />
+    <!-- L -->
+    <path android:fillColor="#E2E8F0" android:pathData="M115,152 L117.5,152 L117.5,162 L123,162 L123,164.5 L115,164.5 Z" />
+    <!-- O -->
+    <path android:fillColor="#E2E8F0" android:pathData="M126,152 L133,152 C135,152 136.5,154 136.5,158 C136.5,162 135,164.5 133,164.5 L126,164.5 C124,164.5 122.5,162 122.5,158 C122.5,154 124,152 126,152 Z M126,154.5 C125.2,154.5 125,156 125,158 C125,160 125.2,162 126,162 L133,162 C133.8,162 134,160 134,158 C134,156 133.8,154.5 133,154.5 Z" />
+    <!-- I -->
+    <path android:fillColor="#E2E8F0" android:pathData="M139.5,152 L142,152 L142,164.5 L139.5,164.5 Z" />
+    <!-- T -->
+    <path android:fillColor="#E2E8F0" android:pathData="M144,152 L152,152 L152,154.5 L149.5,154.5 L149.5,164.5 L146.5,164.5 L146.5,154.5 L144,154.5 Z" />
+    <!-- S -->
+    <path android:fillColor="#E2E8F0" android:pathData="M154,152 L161,152 L161,154.5 L156.5,154.5 L156.5,156.5 L160,157.5 C161.5,158 161.5,160 161.5,162 C161.5,163.5 160,164.5 158.5,164.5 L153.5,164.5 L153.5,162 L159,162 C159.2,162 159.5,161.5 159.5,161 C159.5,160.5 159.2,160 158.5,159.8 L155,158.8 C154,158.5 154,156.5 154,155 Z" />
+
+    <!-- Bottom sub-label: "- D A N G E R O U S -" with mini red skull -->
+    <!-- Left dagger line -->
+    <path
+        android:fillColor="#991B1B"
+        android:pathData="M48,180 L88,180 L86,181.5 L48,181.5 Z" />
+
+    <!-- Center Mini Skull -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M100,174 C96,174 93,177 93,181 C93,184 95,186 96,188 L104,188 C105,186 107,184 107,181 C107,177 104,174 100,174 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M96.5,180 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M103.5,180 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+
+    <!-- Right dagger line -->
+    <path
+        android:fillColor="#991B1B"
+        android:pathData="M112,180 L152,180 L152,181.5 L114,181.5 Z" />
+
+</vector>

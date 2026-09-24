@@ -1,0 +1,6 @@
+{
+  "name": "AK EXPLOITS",
+  "description": "Bypass IDE & Android AI Assistant Maria: Voice automation, device control, Gemini 3.8 Flash coding, screen understanding, live localhost preview, and real-time market/web search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

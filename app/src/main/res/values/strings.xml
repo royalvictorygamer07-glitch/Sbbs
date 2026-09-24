@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AK EXPLOITS</string>
+    <string name="tagline">Bypass IDE &amp; Android AI Agent</string>
+    <string name="nav_studio">Agent Maria</string>
+    <string name="nav_editor">Bypass IDE</string>
+    <string name="nav_history">Projects</string>
+    <string name="nav_device">Device Control</string>
+    <string name="nav_settings">Settings</string>
+</resources>

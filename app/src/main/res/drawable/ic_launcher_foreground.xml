@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Center metallic disc -->
+    <path
+        android:fillColor="#0E1219"
+        android:strokeColor="#7F1D1D"
+        android:strokeWidth="1.5"
+        android:pathData="M54,54 m-46,0 a46,46 0 1,0 92,0 a46,46 0 1,0 -92,0" />
+
+    <!-- Cross chains -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#64748B"
+        android:strokeWidth="2.5"
+        android:pathData="M24,64 L84,44" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#64748B"
+        android:strokeWidth="2.5"
+        android:pathData="M24,44 L84,64" />
+
+    <!-- Compass Spikes -->
+    <path android:fillColor="#EF4444" android:pathData="M54,6 L57,14 L54,12 L51,14 Z" />
+    <path android:fillColor="#EF4444" android:pathData="M54,102 L57,94 L54,96 L51,94 Z" />
+    <path android:fillColor="#EF4444" android:pathData="M6,54 L14,51 L12,54 L14,57 Z" />
+    <path android:fillColor="#EF4444" android:pathData="M102,54 L94,51 L96,54 L94,57 Z" />
+
+    <!-- Red skull cranium -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M54,24 C40,24 30,34 30,48 C30,58 36,66 39,72 C41,76 43,78 44,83 L64,83 C65,78 67,76 69,72 C72,66 78,58 78,48 C78,34 68,24 54,24 Z" />
+
+    <!-- Skull highlight & forehead -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M54,26 C42,26 34,35 34,48 C34,56 39,63 42,68 L66,68 C69,63 74,56 74,48 C74,35 66,26 54,26 Z" />
+
+    <!-- Forehead "AK" Engraving -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E0308"
+        android:strokeWidth="2"
+        android:pathData="M50,42 L46,30 L42,42 M43,38 L49,38 M55,30 L55,42 M63,30 L55,36 L64,42" />
+
+    <!-- Eye sockets -->
+    <path
+        android:fillColor="#0A0204"
+        android:pathData="M40,46 C37,47 36,52 39,56 C42,59 47,58 48,54 C49,49 43,45 40,46 Z" />
+    <path
+        android:fillColor="#0A0204"
+        android:pathData="M68,46 C71,47 72,52 69,56 C66,59 61,58 60,54 C59,49 65,45 68,46 Z" />
+
+    <!-- Glowing red eye pupils -->
+    <path android:fillColor="#FF1E44" android:pathData="M43,51 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path android:fillColor="#FF1E44" android:pathData="M65,51 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+
+    <!-- Nose Cavity -->
+    <path android:fillColor="#0A0204" android:pathData="M54,56 L51,63 L54,62 L57,63 Z" />
+
+    <!-- Teeth -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M45,76 L46.5,81 L48,76 L50,81 L52,76 L54,82 L56,76 L58,81 L60,76 L61.5,81 L63,76 Z" />
+
+    <!-- Banner "AK EXPLOITS" at bottom -->
+    <path
+        android:fillColor="#111827"
+        android:strokeColor="#DC2626"
+        android:strokeWidth="1"
+        android:pathData="M18,87 L90,87 L84,98 L24,98 Z" />
+
+    <!-- Small logo accent text -->
+    <path android:fillColor="#F8FAFC" android:pathData="M27,95 L29,89 L31,95 L29.5,95 L29,93 L28,93 Z" />
+    <path android:fillColor="#F8FAFC" android:pathData="M33,89 L35,89 L35,92 L38,89 L40,89 L37,92 L40.5,95 L38.5,95 L35,93 L35,95 L33,95 Z" />
+
+    <!-- Dangerous mini skull -->
+    <path android:fillColor="#EF4444" android:pathData="M54,90 C51,90 49,92 49,94 C49,96 51,97 52,98 L56,98 C57,97 59,96 59,94 C59,92 57,90 54,90 Z" />
+
+</vector>
